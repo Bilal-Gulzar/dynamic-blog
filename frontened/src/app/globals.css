@@ -37,3 +37,11 @@
   -ms-overflow-style: none;  
   scrollbar-width: none;     
 }
+
+
+
+.height{
+
+   min-height: 100vh;
+   min-height: 100dvh;
+}

@@ -27,7 +27,7 @@ useEffect(() => {
 
   return (
       <header className="flex items-center px-5 py-5 sm:p-7 lg:p-10 justify-between">
-        <div className="font-semibold dark:text-white  sm:text-base text-lg">
+        <div className="font-semibold dark:text-white  text-lg">
           John Doe
         </div>
         <div className="sm:flex hidden gap-5 items-center ">
@@ -91,7 +91,7 @@ useEffect(() => {
         <div className="sm:hidden">
           <MdMenu
             onClick={() => setMenu(true)}
-            className="size-6 dark:text-gray-100"
+            className="size-7 dark:text-gray-100"
           />
         </div>
         <SectionForMobile

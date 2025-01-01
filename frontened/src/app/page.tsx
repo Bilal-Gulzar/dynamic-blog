@@ -41,7 +41,7 @@ export default async function Home() {
     <div className=" lg:px-10 sm:px-7 px-5 mt-12">
       <section>
         <h3 className="customh">Recent blog posts</h3>
-        <div className="grid pb-20 grid-cols-1  lg:grid-cols-2 gap-8 mt-12">
+        <div className="grid pb-20 grid-cols-1  lg:grid-cols-2 gap-8 mt-8 md:mt-12">
           <div>
             <div className="flex flex-col gap-5">
               <Link href={`/blogDetail/${recentBlog[3].slug.current}`}>

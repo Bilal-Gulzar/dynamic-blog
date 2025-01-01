@@ -35,7 +35,7 @@ export default function SectionForMobile({ darkMode, setDarkMode, menu, setMenu}
 
   return (
     <section
-      className={`w-screen h-screen sm:hidden z-50 bg-white dark:bg-[#090d1f] fixed top-0 bgwhite  right-0 left-0 flex items-center justify-center  ${
+      className={`w-screen height sm:hidden z-50 bg-white dark:bg-[#090d1f] fixed top-0 bgwhite  right-0 left-0 flex items-center justify-center  ${
         menu ? "" : "translate-x-full"
       } duration-300`}
         ref={scrollableContentRef}

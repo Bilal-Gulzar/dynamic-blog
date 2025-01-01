@@ -74,7 +74,7 @@ export default function ProjectSection({ popUp, setPopUp , blogDetail}: state) {
       }}
       className={`${
         popUp ? "" : "translate-y-full"
-      } fixed h-screen bg-black/80 w-full p-5 flex justify-center items-center shadow-2xl top-0 z-50 bottom-0 left-0 right-0 `}
+      } fixed h-screen bg-black/80 dark:bg-black/60 w-full p-5 flex justify-center items-center shadow-2xl top-0 z-50 bottom-0 left-0 right-0 `}
       ref={scrollableContentRef}
     >
       <div
