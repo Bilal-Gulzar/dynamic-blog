@@ -25,7 +25,16 @@ export const metadata: Metadata = {
   },
   description:
     "Explore expert-written blogs on technology, coding, and innovation. Unlock knowledge with guides, tips, and industry updates designed for developers",
+
+    twitter: {
+    card: "summary_large_image", // Use a large image card for better visibility
+    title:
+      "The Blog - Explore insightful blogs on technology, programming, and development. Stay updated with expert tips, tutorials, and the latest trends in web development and AI",
+    description:
+      "Explore expert-written blogs on technology, coding, and innovation. Unlock knowledge with guides, tips, and industry updates designed for developers",
+  },
 };
+
 export default function RootLayout({
   children,
 }: Readonly<{
