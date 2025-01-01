@@ -38,7 +38,7 @@ function HomeSection({blogs}:{blogs:obj[]}) {
           {blogs.length > 0 &&
             blogs.map((v: obj) => (
               <div key={v._id} className="gap-6 flex flex-col">
-                <Link href={`blogDetail/${v.slug.current}}`}>
+                <Link href={`blogDetail/${v.slug.current}`}>
                   <div>
                     {v.mainImage?.asset?._ref ? (
                       <Image
