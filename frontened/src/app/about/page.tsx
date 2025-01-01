@@ -34,7 +34,7 @@ export default function About() {
       <div className="mt-14 flex flex-col gap-6">
         <div>
           <Image
-            src="/about/image.png"
+            src="/about/aboutImg.png"
             width={1256}
             height={1256}
             alt="John-Doe"
