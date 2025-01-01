@@ -65,7 +65,7 @@ function HomeSection({blogs}:{blogs:obj[]}) {
                       <ArrowSvg />
                     </span>
                   </div>
-                  <p className="customP pe-5 line-clamp-3 lg:w-[384px]">
+                  <p className="customP pe-5 line-clamp-4 lg:w-[384px]">
                     {v.des}
                   </p>
                   <div className="flex items-center customxs  gap-3  ">

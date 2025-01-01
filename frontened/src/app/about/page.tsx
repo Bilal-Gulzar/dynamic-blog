@@ -18,15 +18,17 @@ export default function About() {
           <Image
             src="/John.png"
             width={1600}
-            height={1600}
-            alt="the blog"
+            height={250}
+            layout="intrinsic"
+            alt="John Doe"
             className="dark:hidden"
           />
           <Image
             src="/JohnDoe-dark.png"
             width={1600}
-            height={1600}
-            alt="the blog"
+            height={250}
+            layout="intrinsic"
+            alt="John Doe"
             className="dark:block hidden"
           />
         </div>
@@ -38,7 +40,7 @@ export default function About() {
             width={1256}
             height={1256}
             alt="John-Doe"
-            className='h-[250px] sm:h-auto'
+            className="h-[250px] sm:h-auto"
           />
         </div>
         <div className="space-y-2.5">

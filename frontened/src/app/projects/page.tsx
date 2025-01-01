@@ -79,15 +79,17 @@ setPopUp(true)
               <Image
                 src="/project-light.png"
                 width={1600}
-                height={1600}
-                alt="the blog"
+                height={250}
+                layout="intrinsic"
+                alt="projects"
                 className="dark:hidden"
               />
               <Image
                 src="/Project.png"
                 width={1600}
-                height={1600}
-                alt="the blog"
+                height={250}
+                layout="intrinsic"
+                alt="projects"
                 className="dark:block hidden"
               />
             </div>

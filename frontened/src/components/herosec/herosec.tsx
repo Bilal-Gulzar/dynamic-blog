@@ -12,20 +12,22 @@ export default function Herosec() {
         <h1 className="lg:block hidden lg:leading-tight dark:text-white text-[15rem] font-semibold text-center">
           THE&nbsp;BLOG
         </h1>
-        <div className='sm:py-10 py-6 px-2 lg:hidden'>
+        <div className="sm:py-10 py-6 px-2 lg:hidden">
           <Image
             src="/The-Blog.png"
             width={1600}
-            height={1600}
+            height={250}
             alt="the blog"
-            className='dark:hidden'
+            layout="intrinsic"
+            className="dark:hidden"
           />
           <Image
             src="/The-Blog-dark.png"
             width={1600}
-            height={1600}
+            height={250}
             alt="the blog"
-            className='dark:block hidden'
+            layout="intrinsic"
+            className="dark:block hidden"
           />
         </div>
       </div>
