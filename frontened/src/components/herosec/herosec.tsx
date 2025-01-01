@@ -9,7 +9,7 @@ export default function Herosec() {
   return (
     <section className={`${path === url ? "" : "hidden"}`}>
       <div className="mx-5 border-y-2 mt-8 border-gray-300 ">
-        <h1 className="lg:block hidden lg:leading-tight dark:text-white text-[15rem] xl:text-[17rem] font-semibold text-center">
+        <h1 className="lg:block hidden lg:leading-tight dark:text-white text-[15rem] font-semibold text-center">
           THE&nbsp;BLOG
         </h1>
         <div className='sm:py-10 py-6 px-2 lg:hidden'>

@@ -11,7 +11,7 @@ export default function About() {
   return (
     <div className="px-5 sm:px-7 lg:px-16 mb-20 ">
       <div className="mx-5 border-y-2 mt-8 border-gray-300 ">
-        <h1 className="lg:block hidden lg:leading-tight dark:text-white text-[15rem] xl:text-[17rem] font-semibold text-center">
+        <h1 className="lg:block hidden lg:leading-tight dark:text-white text-[15rem] font-semibold text-center">
           John&nbsp;Doe
         </h1>
         <div className="sm:py-10 py-6 px-2 lg:hidden">
