@@ -74,11 +74,11 @@ export default function ProjectSection({ popUp, setPopUp , blogDetail}: state) {
       }}
       className={`${
         popUp ? "" : "translate-y-full"
-      } fixed height bg-black/80  w-full p-5 flex justify-center items-center shadow-2xl top-0 z-50 bottom-0 left-0 right-0 `}
+      } fixed height bg-black/80 dark:bg-transparent  w-full p-5 flex justify-center items-center shadow-2xl top-0 z-50 bottom-0 left-0 right-0 `}
       ref={scrollableContentRef}
     >
       <div
-        className={`bg-white dark:bg-[#090d1f] shadow-inner  w-[400px] flex flex-col overflow-y-auto hide-scrollbar gap-4 p-3 max-h-[80vh] rounded-md duration-300 transition-all ease-in-out  ${
+        className={`bg-white dark:bg-[#090d1f] shadow-inner z-50  w-[400px] flex flex-col overflow-y-auto hide-scrollbar gap-4 p-3 max-h-[80vh] rounded-md duration-300 transition-all ease-in-out  ${
           popUp ? "" : "translate-y-full"
         } `}
       >
